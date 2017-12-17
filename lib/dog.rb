@@ -7,10 +7,6 @@ class Dog
   #  @breed = new_breed
   #end
 
-  def bark
-    puts "Woof!"
-  end
-
   def name=(new_name)
     @name = new_name
   end
@@ -18,5 +14,12 @@ class Dog
   def name
     return @name
   end
+
+
+  def bark
+    puts "Woof!"
+  end
+
+
 
 end
