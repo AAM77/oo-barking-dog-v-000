@@ -15,11 +15,8 @@ class Dog
     return @name
   end
 
-
   def bark
     puts "Woof!"
   end
-
-
 
 end
